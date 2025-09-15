@@ -48,7 +48,7 @@ const Show = ({ product, products }) => {
             />
 
             {/* === MORE IMAGES */}
-            <div className="flex ml-2 sm:ml-0">
+            <div className="flex ml-2 sm:ml-0 items-end">
               {product.image.map((e, i) => (
                 <img
                   key={i}
@@ -148,6 +148,7 @@ const Show = ({ product, products }) => {
                 className="flex justify-center items-center mb-4 
                 sm:mb-0 hover:scale-105 transition
                 text-xl px-8 py-2 ring-1 ring-primary w-full sm:w-auto cursor-pointer hover:bg-primary hover:text-white"
+               onClick={() => onAdd(product, qty)}
               >
                 Buy Now
               </button>
