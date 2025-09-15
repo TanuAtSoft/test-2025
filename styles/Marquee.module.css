@@ -84,3 +84,22 @@
   max-width: 320px;
   margin: 0 auto;
 }
+
+.anim {
+  position: absolute;
+  will-change: transform;
+  animation: marquee 15s linear infinite;
+}
+ 
+.anim:hover {
+  animation-play-state: paused;
+}
+ 
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
