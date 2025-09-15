@@ -48,7 +48,7 @@ const Show = ({ product, products }) => {
             />
 
             {/* === MORE IMAGES */}
-            <div className="flex ml-2 sm:ml-0 justify-end items-end">
+            <div className="flex ml-2 sm:ml-0">
               {product.image.map((e, i) => (
                 <img
                   key={i}
