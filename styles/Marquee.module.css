@@ -2,7 +2,7 @@
 .anim {
   position: absolute;
   will-change: transform;
-  animation: marquee 15s linear infinite;
+  animation: marquee 10s linear infinite;
 }
  
 .anim:hover {
