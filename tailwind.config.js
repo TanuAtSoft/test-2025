@@ -16,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwind-styled-scrollbar')],
+  plugins: [require("tailwind-scrollbar")],   // ✅ FIXED
 };
